@@ -21,3 +21,7 @@ WHERE genre = 'disco';
 DELETE * FROM albums
 WHERE artist = 'Adele';
 
+DELETE * FROM albums
+WHERE artist LIKE '%Adele%'; #// like looks approximity or substring
+
+
